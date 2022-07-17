@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'DM Sans',
+    sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Стили для шапки сайта */
+
+header, footer {
+    background: rgba(255, 113, 67, 0.27);
+}
+
+.header_wrapper, .footer_wrapper  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.header_logo, .footer_logo {
+    padding: 50px 0 50px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation_link {
+    margin-right: 55px;
+    align-items: center;
+    font-weight: 700;
+    font-size: 15px;
+    color: #696871;
+    text-decoration: none;
+}
+
+.activ_link {
+    font-weight: 900;
+    color: #19191B;
+}
+
+.header_btn {
+    width: 212.39px;
+    height: 60px;
+    background: #FF7143;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    color: #FFFFFF;
+}
+
+/* Стили для секции промо (оффер) */
+
+.promo_wrapper {
+    padding-top: 104px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo_offer {
+    width: 467px;
+}
+
+.promo_title {
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 77px;
+    color: #19191B;
+}
+
+.promo_subtitle {
+    margin-top: 41px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #696871;
+}
+
+.promo_buttons {
+    margin-top: 55px;
+}
+
+.activ_btn {
+    background: #5454D4;
+    border-radius: 10px;
+    border: none;
+    width: 213px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.not_activ_btn {
+    border: 1px solid #5454D4;
+    border-radius: 10px;
+    width: 213px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    color: #5454D4;
+    cursor: pointer;
+}
+
+/* Стили для секции с регистрацией */
+
+.subscription_wrapper {
+    margin-top: 117px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.subscription_title {
+    font-weight: 700;
+    font-size: 50px;
+    color: #19191B;
+}
+ .subscription_registration {
+    margin-top: 38px;
+    margin-right: 38px;
+    width: 302px;
+    height: 60px;
+    border: 1px solid #7087FF;
+    border-radius: 10px;
+    padding-left: 19px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #000000;
+ }
+
+/* Стили для секции с тарифным планом */
+
+.rate {
+    padding: 85px 0 132px 0;
+}
+
+.rate_title {
+    width: 500px;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+}
+
+.rate_wrapper {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate_cart {
+    padding: 34px 0 27px 0;
+    width: 330px;
+    height: 441px;
+    background: #F8F8F8;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cart_title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #696871;
+}
+
+.cart_prace {
+    margin-top: 22px;
+    font-size: 60px;
+    line-height: 56px;
+    color: #1D293F;
+}
+
+.cart_prace span {
+    font-size: 28px;
+}
+
+.cart_descr {
+    margin-top: 28px;
+    font-size: 17px;
+    line-height: 50px;
+    color: #696871;
+}
+
+.cart_btn {
+    margin-top: 40px;
+    width: 285px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 17px;
+    color: #5454D4;
+    cursor: pointer;
+}
+
+/* Активна карта с тарифным планом */
+
+.rate_cart_activ {
+    background: #FF7143;
+    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+    border-radius: 10px;
+}
+
+.cart_title_activ {
+    color: #FFFFFF;
+}
+
+.cart_prace_activ {
+    color: #FFFFFF;
+}
+
+.cart_descr_activ {
+    color: #FFFFFF;
+}
+
+.cart_btn_activ {
+    background: #9F3919;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+}
